@@ -1,11 +1,13 @@
 import { createMuiTheme, responsiveFontSizes } from "@material-ui/core";
 
+// {"Rich Black FOGRA 29":"011627","Congo Pink":"ff928b","Nickel":"646e68","Caput Mortuum":"63372c","Platinum":"e5ebea"}
+
 // colors
-const primary = "#b3294e";
-const secondary = "#4829B2";
+const primary = "#EC9192";
+const secondary = "#F58549";
 const black = "#343a40";
 const darkBlack = "rgb(36, 40, 44)";
-const background = "#f5f5f5";
+const background = "#e5ebea";
 const warningLight = "rgba(253, 200, 69, .3)";
 const warningMain = "rgba(253, 200, 69, .5)";
 const warningDark = "rgba(253, 200, 69, .7)";

@@ -1,13 +1,10 @@
-import React, { Fragment, Suspense, lazy } from "react";
+import React, { Fragment, Suspense } from "react";
 import { MuiThemeProvider, CssBaseline } from "@material-ui/core";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import theme from "./theme";
 import GlobalStyles from "./GlobalStyles";
 import Pace from "./shared/components/Pace";
-
-const LoggedInComponent = lazy(() => import("./logged_in/components/Main"));
-
-const LoggedOutComponent = lazy(() => import("./logged_out/components/Main"));
+import Home from './home'
 
 function App() {
   return (
@@ -18,11 +15,8 @@ function App() {
         <Pace color={theme.palette.primary.light} />
         <Suspense fallback={<Fragment />}>
           <Switch>
-            <Route path="/c">
-              <LoggedInComponent />
-            </Route>
             <Route>
-              <LoggedOutComponent />
+              <Home />
             </Route>
           </Switch>
         </Suspense>
