@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/weekly-startup-newsletter/static/js/main.baa16d2c.chunk.js",
-    "main.js.map": "/weekly-startup-newsletter/static/js/main.baa16d2c.chunk.js.map",
+    "main.js": "/weekly-startup-newsletter/static/js/main.ba35291a.chunk.js",
+    "main.js.map": "/weekly-startup-newsletter/static/js/main.ba35291a.chunk.js.map",
     "runtime-main.js": "/weekly-startup-newsletter/static/js/runtime-main.e904ab7f.js",
     "runtime-main.js.map": "/weekly-startup-newsletter/static/js/runtime-main.e904ab7f.js.map",
     "static/css/2.5b92c85d.chunk.css": "/weekly-startup-newsletter/static/css/2.5b92c85d.chunk.css",
@@ -12,13 +12,13 @@
     "service-worker.js.map": "/weekly-startup-newsletter/service-worker.js.map",
     "static/css/2.5b92c85d.chunk.css.map": "/weekly-startup-newsletter/static/css/2.5b92c85d.chunk.css.map",
     "static/js/2.146a2ed1.chunk.js.LICENSE.txt": "/weekly-startup-newsletter/static/js/2.146a2ed1.chunk.js.LICENSE.txt",
-    "static/js/main.baa16d2c.chunk.js.LICENSE.txt": "/weekly-startup-newsletter/static/js/main.baa16d2c.chunk.js.LICENSE.txt",
+    "static/js/main.ba35291a.chunk.js.LICENSE.txt": "/weekly-startup-newsletter/static/js/main.ba35291a.chunk.js.LICENSE.txt",
     "static/media/creativity.844d831e.png": "/weekly-startup-newsletter/static/media/creativity.844d831e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e904ab7f.js",
     "static/css/2.5b92c85d.chunk.css",
     "static/js/2.146a2ed1.chunk.js",
-    "static/js/main.baa16d2c.chunk.js"
+    "static/js/main.ba35291a.chunk.js"
   ]
 }
