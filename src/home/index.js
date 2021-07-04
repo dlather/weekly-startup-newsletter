@@ -3,6 +3,7 @@ import {
   Grid,
   Typography,
   Container,
+  Button,
 } from "@material-ui/core";
 import AppIcon from '../assets/creativity.png'
 import { SignupForm } from '../logged_out/components/signUpForm';
@@ -42,6 +43,8 @@ function Home() {
     </Grid>
     <Container style={{height: '20px'}}/>
     <SignupForm style={{background: 'bottom'}}/>
+    <Container style={{height: '20px'}}/>
+    <Button target="_blank" style={{backgroundColor: 'white'}} href="https://weeklystartupnewsletter.blogspot.com/">Read our Blog for more Ideas</Button>
     </Grid> 
     </Grid>
 }
